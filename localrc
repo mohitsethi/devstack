@@ -1,0 +1,17 @@
+#Credentials
+ADMIN_PASSWORD=devstack
+MYSQL_PASSWORD=devstack
+RABBIT_PASSWORD=devstack
+SERVICE_PASSWORD=devstack
+SERVICE_TOKEN=token
+HOST_IP=10.0.0.14
+
+
+export OS_USERNAME=admin
+export OS_PASSWORD=devstack
+export OS_TENANT_NAME=admin
+#export NOVA_ENDPOINT_TYPE=internalURL 
+#export OS_REGION_NAME=public 
+export OS_AUTH_URL=http://127.0.0.1:5000/v2.0
+#export OS_ENDPOINT_TYPE=internalURL
+
